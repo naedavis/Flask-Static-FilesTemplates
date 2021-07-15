@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Numbers</title>
+</head>
+<body>
+  <h1> Looping through {{number}} </h1>
+<!--For Loop-->
+<!--  shows multiplication of number inserted by a numbers that range from 1 to 10-->
+{% for x in range(1,11): %}
+  <p>{{x}} * {{number}} = {{x*number}}</p>
+{%endfor%}
+<!--END of For Loop-->
+
+</body>
+</html>
